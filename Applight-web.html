@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)http://127.0.0.1:5501/Applight.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&amp;display=swap">
+    
+    <style>
+
+.z-index > img {position: absolute;border: 1px solid red;width: 100%;z-index: -1;}
+
+.z-index {
+    position: sticky;
+    top: 0px;
+    z-index: -1;
+}
+.header-img {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+}
+.header-img {
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+
+.top {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    width: 723px;
+    justify-content: space-between;
+    font-size: 25px;
+    color: white;
+    position: relative;
+    left: 35%;
+}
+
+.header {
+    background-color: #00dbff;
+}
+.head-top {
+    position: relative;
+    right: 131px;
+    color: white;
+    font-size: 19px;
+}
+
+
+ul > li:hover {
+    color: black;
+}
+
+.head-top > h1:hover {color: black;}
+
+.left-right {
+    display: flex;
+    width: 48%;
+    justify-content: space-between;
+    position: relative;
+    left: 26%;
+    padding: 20px;
+}
+
+.left {
+    width: 62%;
+    font-size: 24px;
+    color: white;
+}
+
+.second {
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+}
+
+.about-sec {
+    padding-top: 102px;
+}
+
+.about-sec > h1 {
+    border: 3px dotted black;
+    width: 147px;
+    position: relative;
+    left: 47%;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+.sec-but {
+    display: flex;
+    border: 1px solid black;
+    width: 55%;
+    position: relative;
+    left: 22%;
+    justify-content: space-around;
+    padding: 20px;
+}
+button.learn-more {
+    padding: 10px 42px;
+}
+
+.three {
+    border: 1px solid black;
+    background-color: #6c6cbfdb;
+    text-align: center;
+    padding: 57px;
+}
+
+.three > img {
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 57px;
+}
+
+.four {
+    text-align: center;
+    background-color: white;
+    padding: 74px;
+}
+
+.features {
+    font-size: 25px;
+    width: 49%;
+    position: relative;
+    left: 28%;
+}
+
+.features > h1 {
+    border: 3px dotted black;
+    width: 250px;
+    position: relative;
+    left: 35%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.four-butt-one {
+    display: flex;
+}
+
+.proc-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 279px;
+}
+
+.proc-2 > img {
+    width: 100px;
+    position: relative;
+    left: 500%;
+    top: 94px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 77px;
+    padding: 10px;
+}
+
+.fast-rpocessing {
+    padding: 38px;
+    display: flex;
+    flex-direction: column;
+    gap: 216px;
+    position: relative;
+    top: 50px;
+}
+
+.left-p {
+    width: 515px;
+    font-size: 22px;
+}
+
+.madel-phome > img {
+    position: relative;
+    bottom: 1074px;
+    width: 546px;
+}
+
+.four-butt-two {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    bottom: 115pc;
+    right: 217px;
+}
+
+.done-img {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    gap: 265px;
+    position: relative;
+    bottom: 290px;
+    right: 119px;
+    left: -26px;
+}
+
+.done-img > img {
+    width: 150px;
+}
+
+.regular-right {display: flex;flex-direction: column;gap: 151px;position: relative;bottom: 304px;}
+
+.p-right {width: 500px;font-size: 23px;padding: 10px;position: relative;left: 95px;}
+
+section.five {
+    background-color: white;
+    padding: 50px;
+}
+
+.our-team-top {
+    text-align: center;
+    font-size: 20px;
+    width: 41%;
+    position: relative;
+    left: 30%;
+}
+
+.our-team-top > h1 {
+    border: 3px dotted black;
+    font-size: 44px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 242px;
+    position: relative;
+    left: 37%;
+}
+
+.our-team-butt {
+    display: flex;
+    width: 50%;
+    position: relative;
+    left: 24%;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.team-card > img {
+    width: 217px;
+    border: 1px solid black;
+    border-radius: 120px;
+}
+
+.team-card > p {position: relative;left: 48px;}
+
+.team-card > h1 {
+    position: relative;
+    left: 44px;
+}
+
+section.six {text-align: center;background-color: #526aeb;padding: 58px;}
+
+.testimonials-top {
+    font-size: 20px;
+    width: 42%;
+    position: relative;
+    left: 30%;
+}
+
+.testimonials-top > h1 {border: 3px dotted #fbf6f6;width: 300px;position: relative;left: 34%;border-top: none;border-right: none;border-left: none;font-size: 50px;color: white;}
+
+.testimonlals-butt {
+    display: flex;
+    width: 864px;
+    padding: 24px;
+    position: relative;
+    left: 32%;
+    border: 1px solid white;
+    padding: 47px;
+    background-color: #faf2f2;
+    margin-top: 105px;
+}
+
+.testimonlals-butt > img {
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 111px;
+}
+
+.john-michal > h1 {
+    position: relative;
+    right: 34%;
+}
+
+.john-michal > p {
+    position: relative;
+    
+}
+
+.john-michal {
+    position: relative;
+    left: 40px;
+}
+
+.testimonials-top > p {
+    color: white;
+}
+.seven-top {
+    text-align: center;
+    padding: 54px;
+}
+
+section.seven {
+    background-color: #f4f7f7;
+    padding: 25px;
+}
+
+.seven-butt {
+    display: flex;
+    width: 59%;
+    justify-content: space-between;
+    position: relative;
+    left: 23%;
+}
+
+.sbl-list {
+    width: 646px;
+}
+
+.sbr-item {
+    width: 726px;
+}
+
+.contact-us {
+    text-align: center;
+    font-size: 20px;
+}
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+section.eight {
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 90px;
+}
+
+form {
+    width: 33%;
+    padding: 10px;
+    font-size: 30px;
+    position: relative;
+    top: 40px;
+}
+
+input[type="text\ "] {
+    width: 50%;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+input[type="text"] {
+    width: 40%;
+    padding: 14px;
+    border-radius: 25px;
+}
+input.sub {
+    width: 95%;
+    font-size: 20px;
+}
+
+input.mess {
+    width: 95%;
+    padding-bottom: 116px;
+    font-size: 20px;
+}
+
+button.button-form {
+    width: 95%;
+    padding: 13px;
+    background-color: #6f21f3;
+    color: white;
+    font-size: 20px;
+    border-radius: 25px;
+}
+
+.phoster {display: flex;border: 1px solid #f3eded;width: 22%;padding: 10px;background-color: #7700ff;position: relative;top: 40px;border-radius: 17px;}
+
+.form-img {width: 20%;display: flex;flex-direction: column;gap: 33px;position: relative;left: 22px;top: 37px;}
+
+img.phost-img {
+    width: 60px;
+}
+
+.phoster-text {color: white;font-size: 20px;position: relative;}
+
+section.nine {
+    background-color: #8e00ff;
+    padding: 34px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    padding-bottom: 142px;
+}
+
+section.nine > p {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 38px;
+    padding-bottom: 90px;
+}
+
+section.nine > h1 {border-bottom: 3px dotted #2e2525;width: 338px;padding: 12px;margin: 0 auto;}
+
+.end {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    padding-bottom: 23px;
+}
+
+.end > img {
+    padding-top: 102px;
+}
+
+
+
+
+
+    </style>
+</head>
+<body> 
+<!-- z-inedex -->
+ <div class="z-index">
+    <img src="./Applight-web_files/video-bg.jpg" alt="">
+ </div>
+ <!-- header-->
+<div class="header-img">
+    <img class="head" src="./Applight-web_files/img-01jpg.jpg" alt="">
+</div>
+<div class="header">
+    <div class="top">
+        <div class="head-top">
+            <h1>Applight</h1>
+        </div>
+        <div class="link-head">
+            <ul>
+                <li>
+                    Home
+                </li>
+                <li>About</li>
+                <li>Features</li>
+                <li>Team</li>
+                <li>Testmonials</li>
+                <li>FAQ</li>
+                <li>Contact</li>
+            </ul>
+        </div>     
+    </div>
+
+    <div class="left-right">
+
+        <div class="left">
+            <h1>BEST APP WEBSITE TEMPLATE</h1>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quas nihil ut dicta ipsum, sapiente quasi nobis earum recusandae ab, numquam consequuntur iste deserunt nostrum neque! Assumenda fugit atque totam sit, adipisci rerum distinctio optio.</p>
+            <img class="appstore" src="./Applight-web_files/appstore.png" alt="">
+            <img class="playstore" src="./Applight-web_files/playstore.png" alt="">
+        </div>
+        <div class="right">
+            <img class="iphone" src="./Applight-web_files/iphone-screen.png" alt="">
+        </div>
+
+    </div>
+</div>
+<!-- second -->
+ <div class="second">
+    <div class="about-sec">
+        <h1>About</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit voluptates assumenda aliquid dicta et culpa ipsa numquam eligendi fugit possimus?</p>
+    </div>
+    <div class="sec-but">
+        <div class="support">
+            
+            <h1>Support</h1>
+            <p>porem ipsum dolor sit amet consectetur <br> adipisicing elit. Esse expedita similique, praesentium <br>reprehenderit odit non.</p>
+        </div>
+        <div class="cross">
+            <h1>Cross platform</h1>
+            <p>porem ipsum dolor sit amet consectetur <br> adipisicing elit. Esse expedita similique, praesentium <br>reprehenderit odit non.</p>
+        </div>
+        <div class="fast">
+            <h1>Fast</h1>
+            <p>porem ipsum dolor sit amet consectetur <br> adipisicing elit. Esse expedita similique, praesentium <br>reprehenderit odit non.</p>
+        </div>
+    </div>
+    <button class="learn-more"> Learn More</button>
+ </div>
+ <!-- three -->
+<div class="three">
+    <h1>Watch Now</h1>
+    <img src="./Applight-web_files/video-img icon.jpg" alt="">
+</div>
+
+<!-- four -->
+ <div class="four">
+    <div class="features">
+        <h1>Features</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores reiciendis cumque molestias aut eos placeat nesciunt tenetur et culpa modi!</p>
+     </div>
+        <div class="four-butt">
+            <div class="four-butt-one">
+                <div class="proc-2">
+                    <img src="./Applight-web_files/fet-1.jpg.png" alt="">
+                    <img src="./Applight-web_files/battary.jpg" alt="">
+                    <img src="./Applight-web_files/wi-fi.jpg" alt=""> 
+                    
+                </div>
+
+               <div class="fast-rpocessing">
+                    <div class="left-p">                    
+                        <h1>Processing</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br> Dolorem repudiandae non rem, voluptatibus <br> dignissimos accusantium quasi.</p>                                       
+                    </div>
+                    <div class="left-p">                    
+                         <h1>Low Power consuming</h1>
+                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing <br> elit.  Libero dolorem debitis deleniti expedita <br> consequatur tenetur corrupti.</p>
+
+                    </div>
+                    <div class="left-p">                    
+                        <h1>Wifi compatibllity</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Consequatur aperiam vel voluptatem iure <br> nam quidem excepturi!</p>                    
+                    
+                    </div>
+               </div>
+
+            </div>
+            <div class="madel-phome">
+                <img src="./Applight-web_files/iphone-screen.png" alt="">
+            </div>
+           
+
+            <div class="four-butt-two">
+
+                <div class="done-img">
+                    <img src="./Applight-web_files/Done all.jpg.png" alt="">
+                    <img src="./Applight-web_files/dollar icon.jpg" alt="">
+                    <img src="./Applight-web_files/equall icon.jpg" alt="">
+                    
+                </div>
+
+               <div class="regular-right">
+                    <div class="p-right">
+                        <h1>Regular Updates</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing <br> elit. Soluta delectus, non possimus ipsam illo deserunt <br> where every one</p>                    
+                    </div>
+                    <div class="p-right">
+                        <h1>save money</h1>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing <br> elit. Quaerat omnis deserunt rem dolores expedita. Dolorum <br> necessitatibus cupiditate </p>                               
+                    </div>
+                    <div class="p-right">                    
+                        <h1>Unlimited Stotage</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing <br> elit. Animi officiis, consectetur deserunt corrupti <br> vero suscipit sint!</p>                    
+                    </div>
+               </div>
+
+            </div>
+
+         </div>
+ </div>
+ <!-- section5 -->
+  <section class="five">
+    <div class="our-team-top">
+        <h1>Our Team</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci facilis officiis ad quibusdam odit maiores voluptatum asperiores, reiciendis est voluptatem!</p>
+    </div>
+    <div class="our-team-butt">
+
+        <div class="team-card">
+            <img src="./Applight-web_files/user1.jpg" alt="">
+            <h1 class="blue">Nitu Singh</h1>
+            <p>Marketing Specialist</p>            
+        </div>
+
+        <div class="team-card">
+            <img src="./Applight-web_files/user2.jpg" alt="">
+            <h1 class="blue">yogesh Singh</h1>
+            <p>CEO &amp; Founder</p>
+        </div>
+
+        <div class="team-card">
+            <img src="./Applight-web_files/user3.jpg" alt="">
+            <h1 class="blue">Nisha Sharma</h1>
+            <p>Web Developer</p>
+        </div>
+
+    </div>
+  </section>
+  <!-- section6 -->
+   <section class="six">
+
+    <div class="testimonials-top">
+        <h1>Testimonlals</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam nihil similique reprehenderit quo facere ipsam laudantium, alias delectus modi nostrum!</p>
+    </div>
+
+    <div class="testimonlals-butt">        
+        <img src="./Applight-web_files/user1.jpg" alt="">  
+        <div class="john-michal">
+            <h1>John Michal</h1>
+            <p>Digital Designer</p>
+            <p class="john-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque sed saepe voluptatum quos exercitationem tenetur in sunt.</p>
+        </div>   
+
+    </div>
+   </section>
+   <!-- section7 -->
+    <section class="seven">
+        <div class="seven-top">
+            <h1 class="s-top-h1">Frequently Asked Questions</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt dignissimos voluptatum voluptates porro, inventore rem aut sit ratione! Quisquam, beatae.</p>
+        </div>
+        <div class="seven-butt">
+
+            <div class="s-butt-left"> 
+
+                <div class="sbl-list">
+                    <h1>Nom tellus fells dignissim quis dui?</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas voluptatibus velit autem laudantium consectetur laborum fuga magni atque, perferendis nemo.</p>
+                </div>
+                <div class="sbl-list">
+                    <h1>Nullam eilt est ultricies et tellus ac?</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut enim facere illo deserunt est nesciunt natus id mollitia, incidunt excepturi in? A ut nihil delectus error sunt molestiae saepe ratione.</p>
+                </div>
+                <div class="sbl-list">
+                    <h1>Ut westibulum euismod aliquet Quiwue nec malesada nibh?</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio possimus modi nostrum veniam dolor repellendus, illum exercitationem, eos sed incidunt provident praesentium consequuntur laborum quidem omnis eligendi sit quaerat in!</p>
+                </div>
+
+            </div>
+            <div class="s-butt-right">
+                <div class="sbr-item">
+                    <h1>Mauris scelerisque dui non faucilbus vulputate?</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores vel possimus harum minus, culpa mollitia ratione earum fugiat autem qui nemo officia, explicabo natus voluptatibus optio odio consequuntur neque architecto quibusdam, omnis laudantium reprehenderit placeat voluptatum recusandae? Ad, ipsam repellendus?</p>
+                </div>
+                <div class="sbr-item">
+                    <h1>Suspendisse fermentum placerat enim at pellentesque augue elit est?</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi earum quos quaerat consequuntur, impedit incidunt.</p>
+                </div>
+                <div class="sbr-item">
+                    <h1>Donec commodo dapibus cogue?</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias sint excepturi et consequatur nemo beatae pariatur quod ex odio illum, unde magnam necessitatibus, accusamus asperiores, ea reprehenderit reiciendis quia adipisci nobis deleniti dolorem. Odit laudantium ut deserunt error eos quam.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- section8 -->
+     <section class="eight">
+        <div class="contact-us">
+            <h1 class="border">
+                Contact us 
+            </h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil quod deserunt, magni quo tempora fuga  amet consectetur adipisicing elit?</p>
+        </div>
+        <div class="form">
+            <form action="http://127.0.0.1:5501/action_page.php">
+                <input type="text " placeholder="Full Name">
+                <input class="email" type="text" placeholder="Email"><br><br>
+                <input class="sub" type="text" placeholder="Subject"><br><br>
+                <input class="mess" type="text" placeholder="Message"><br><br>
+                <button class="button-form">SUBMIT</button>
+            </form>
+            <div class="phoster">
+               <div class="form-img">
+                <img class="phost-img" src="./Applight-web_files/Google_map.jpg" alt="">
+                <img class="phost-img" src="./Applight-web_files/phone img icon.png" alt="">
+                <img class="phost-img" src="./Applight-web_files/Google_mail.jpg" alt="">
+                <img class="phost-img" src="./Applight-web_files/working hours icon.png" alt="">
+               </div>
+                <div class="phoster-text">
+                    <h1>ADDRESS <br> NEW DELHI, INDIA</h1>
+                    <h1>PHONE <br> 009900990099</h1>
+                    <h1>E-MAIL <br> INFO@DDMAIN.COM</h1>
+                    <h1>WORDING HOURS <br> MON-FRI 9.00 AM TO 5.00PM.</h1>
+                </div>
+            </div>
+        </div>
+
+     </section>
+     <!-- section9 -->
+      <section class="nine">
+        <h1>Download Our App</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima repellat tenetur dignissimos fugiat reprehenderit, autem esse ad laudantium deleniti odio.</p>
+        <img src="./Applight-web_files/appstore.png" alt="">
+        <img src="./Applight-web_files/playstore.png" alt="">
+      </section>
+      <!-- section10 -->
+       <div class="end">
+        <p>2045 @ All Rights reserved I  Design by w3template</p>
+        <img class="end" src="./Applight-web_files/img-01jpg(1).jpg" alt="">
+       </div>
+
+  
+ <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
